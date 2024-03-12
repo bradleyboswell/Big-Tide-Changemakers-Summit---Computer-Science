@@ -57,3 +57,57 @@ footer {
         padding: 15px;
     }
 }
+
+/* Additions to the existing CSS */
+header {
+    background-color: #f8a488; /* A vibrant background color */
+    border-radius: 20px 20px 0 0; /* Rounded corners at the top */
+    text-align: center;
+    padding: 40px 20px; /* More padding for a larger header space */
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+header p {
+    color: #ffecd9; /* Lighter text for the subtitle */
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #ffffff;
+    color: #005a9c;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px; /* Rounded button edges */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-size: 16px;
+    margin: 10px 0; /* Spacing between buttons */
+    display: block; /* Ensure buttons take full width */
+    width: 80%;
+    margin-left: auto; /* Center buttons */
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #f3f3f3; /* Light grey background on hover for feedback */
+}
+
+/* Styling for icons at the bottom */
+.icons {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Assuming you have SVG or font icons */
+.icon img {
+    width: 24px;
+    height: 24px;
+}
